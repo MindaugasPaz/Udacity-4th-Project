@@ -18,4 +18,3 @@ describe("Filter function", () =>{
         expect(filterByTerm(input, "LINK")).toEqual(output);
     });
 });
-
