@@ -1,0 +1,43 @@
+form {
+    // border: 1px solid #545454;
+    border-radius: 3px;
+    padding: 30px;
+    margin: auto;
+    // background: #F7F7F7;
+}
+
+input {
+    // padding: 5px 20px;
+    width: 100%;
+    line-height: 16px;
+    margin: 10px 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 8px 20px;
+}
+#button {
+    border-radius: 4px;
+    // background: #33B5E5;
+    width: 100%;
+    padding: 6px;
+}
+#button:hover {
+    background: #33B5E5;
+    color: white;
+}
+#name {
+    width: 100%;
+}
+#name:focus {
+	color: #555;
+    font: 100% Arial, Helvetica, sans-serif;
+    box-shadow: 0 0 5px #33B5E5;
+	padding: 1%;
+    border: 1px solid #33B5E5;
+    // transition: all 0.30s;
+    box-sizing: border-box;
+    width: 100%;
+}
+#results {
+    padding-top: 20px;
+}
